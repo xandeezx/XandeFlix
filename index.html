@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Xande Flix</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>PokeDex</h1>
+
+    <header>
+        <h1>Xande Flix</h1>
+        <p>Detalhes de qualquer série ou filme</p>
+        
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Ex: Breaking Bad, Dark...">
+            <button class="search-button">Buscar</button>
+        </div>
+    </header>
+
+    <main class="perfil-card">
+        <h2 class="serie-nome">Aguardando busca...</h2>
+        
+        <img src="https://www.tvmaze.com/images/tvm-header-logo.png" alt="Poster" class="serie-foto">
+        
+        <div class="info">
+            <p class="serie-genero"><strong>Gênero:</strong> --</p>
+            <p class="serie-nota"><strong>Nota:</strong> --</p>
+            <div class="serie-resumo">Busque uma série para ver o resumo aqui embaixo.</div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
