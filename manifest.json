@@ -12,9 +12,11 @@
       "type": "image/png"
     },
     {
-      "src": "img/dexter2.jpeg",
+      "src": "img/dexter2.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+
     }
   ]
 }
